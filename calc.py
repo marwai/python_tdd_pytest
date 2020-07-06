@@ -15,5 +15,8 @@ class Calc:
         else:
             return False
 
+    def cm_to_inch(self, num1):
+        return round(num1 / 2.54, 2)
+
 simple_calc = Calc()
 print(simple_calc.add(2, 2))

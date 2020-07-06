@@ -18,3 +18,7 @@ class Calc_Test(unittest.TestCase):
         self.assertEqual(self.simple_calc.divide(9,3),3)
     def test_modulo(self):
         self.assertTrue(self.simple_calc.modulo(3,3),0)
+    def test_cm_to_inch(self):
+        self.assertEqual(self.simple_calc.cm_to_inch(10),3.94)
+
+
